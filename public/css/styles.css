@@ -1,0 +1,268 @@
+/* #region Global Styles */
+* {
+    font-family: Roboto, Georgia, "Times New Roman", Times, serif;
+}
+body {
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.row {
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.btn-primary {
+    background-color: #f2a340;
+    border: 2px solid #c28008;
+}
+
+.btn-primary:hover {
+    background-color: #c28008;
+    border-color: #c28008;
+}
+
+/*#endregion */
+
+/* #region Navbar */
+#navbar img {
+    width: 64px;
+}
+
+#navbar {
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 5px 0;
+}
+
+#navbar a {
+    font-size: 14px;
+    color: #757575;
+}
+
+#navbar a:hover {
+    color: #f2a340;
+}
+
+/* #endregion */
+
+/* #region Session Messages  */
+
+#session-message-success{
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3eccb;
+    width: 100%;
+    margin-bottom: 00px;
+    text-align: center;
+    padding: 10px;
+}
+
+#session-message-error{
+    background-color: rgb(236, 78, 78);
+    color: white;
+    border: 1px solid rgb(177, 53, 53);
+    width: 100%;
+    margin-bottom: 00px;
+    text-align: center;
+    padding: 10px;
+}
+/* #endregion */
+
+/* #region Welcome Page */
+
+#search-container {
+    background-image: url("../img/banner.png");
+    background-size: cover;
+    background-position: bottom;
+    height: 340px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+#search-container h1 {
+    color: #f2a340;
+}
+
+#search-container form {
+    width: 50%;
+}
+
+#events-container {
+    padding: 50px;
+}
+
+#events-container h2 {
+    margin-bottom: 10px;
+}
+
+#events-container .subtitle {
+    color: #757575;
+    margin-bottom: 32px;
+}
+
+#card-container {
+    display: flex;
+}
+
+#events-container .card {
+    flex: 1 1 24%;
+    max-width: 25%;
+    border-radius: 10px;
+    padding: 0;
+    margin: 5px;
+}
+
+#events-container img {
+    max-height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card .card-date {
+    font-size: 12px;
+    color: #757575;
+}
+
+.card .card-title {
+    color: #212121;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.card .card-participants {
+    font-size: 14px;
+    color: #757575;
+}
+
+/* #endregion */
+
+/* #region Footer */
+footer {
+    text-align: center;
+    background-color: #353e48;
+    color: white;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+/* #endregion */
+
+/* #region Create Event */
+
+#event-create-container .form-group {
+    margin: 12px 0;
+}
+#event-create-container {
+    padding: 30px;
+}
+
+#event-create-container label {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#event-create-container #facilities {
+    padding-left: 12px;
+}
+
+#event-create-container #facilities label {
+    font-size: 14px;
+}
+
+/* #endregion */
+
+/* #region Edit Page */
+
+#event-create-container #current-image-preview {
+    width: 120px;
+}
+
+/* #endregion */
+
+/* #region Event Page */
+
+#image-container,
+#info-container {
+    margin-top: 30px;
+}
+
+#image-container img {
+    border-radius: 10px;
+    max-height: 314px;
+}
+
+#info-container h1 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+#info-container p {
+    margin: 0;
+    font-size: 14px;
+    display: flex;
+}
+
+#info-container h3,
+#description-container h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#info-container #items-container {
+    gap: 8px;
+}
+
+#info-container ion-icon {
+    font-size: 20px;
+    color: #f2a340;
+    margin-right: 5px;
+}
+
+#description-container {
+    margin-top: 24px;
+}
+
+#info-container #event-submit {
+    margin: 20px 0;
+}
+/* #endregion */
+
+/* #region Dashboard */
+
+#dashboard-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#dashboard-events-table th {
+    text-align: center;
+}
+
+#dashboard-events-table td {
+    width: 25%;
+}
+
+#dashboard-events-container form {
+    display: inline-block;
+}
+
+/* #endregion */
